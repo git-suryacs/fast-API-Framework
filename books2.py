@@ -54,10 +54,33 @@ async def read_all_books():
     return BOOKS
 
 
+@app.get("/books/{book_id}")
+async def read_book_by_id(book_id:int):
+    for book in BOOKS:
+        if book.id == book_id:
+            return book
+
+
+@app.get("/books/")
+async def read_books_by_rating(book_rating :int):
+    list_of_books = []
+    for book in BOOKS:
+        if book.rating == book_rating :
+            list_of_books.append(book)
+    return list_of_books
+
+
 @app.post("/create-book")
 async def create_book(book_request: BookRequest):
     new_book = Book(**book_request.dict())
     BOOKS.append(find_book_id(new_book))
+
+
+@app.put("/books/update_book")
+async def update_book(book:BookRequest):
+    for i in range(len(BOOKS)):
+        if BOOKS[i].id == book.id:
+            BOOKS[i] = book
 
 
 def find_book_id(book: Book):
