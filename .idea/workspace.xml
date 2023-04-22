@@ -9,6 +9,7 @@
       <change afterPath="$PROJECT_DIR$/TodoApp/database.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoApp/main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoApp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/todos.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture-one/books.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture-one/books2.py" afterDir="false" />
