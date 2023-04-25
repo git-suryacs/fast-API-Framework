@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="719d57f2-293c-4eb2-865f-14898ee623ce" name="Changes" comment="" />
+    <list default="true" id="719d57f2-293c-4eb2-865f-14898ee623ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TodoApp/routers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/routers/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/routers/todos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +47,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\talk2\Desktop\Fast-Api-FrameWork\TodoApp\routers" />
       <recent name="C:\Users\talk2\Desktop\Fast-Api-FrameWork\lecture-one" />
       <recent name="C:\Users\talk2\Desktop\Fast-Api-FrameWork\lecture-one\imports_example" />
       <recent name="C:\Users\talk2\Desktop\Fast-Api-FrameWork\Project\App_1" />
