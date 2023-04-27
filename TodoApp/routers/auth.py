@@ -5,5 +5,4 @@ router = APIRouter()
 
 @router.get("/auth/")
 async def get_user():
-    return {'user':'authenticated'}
-
+    return {'user': 'authenticated'}
