@@ -48,7 +48,7 @@ async def read_todo(user: user_dependency, db: db_dependency, todo_id: int = Pat
 
 @router.post("/todo", status_code=status.HTTP_201_CREATED)
 async def create_todo(user: user_dependency,
-                      db: db_dependency,
+                      db: db_dependency ,
                       todo_request: TodoRequest):
     print("INSIDE")
     if user is None:
